@@ -28,7 +28,7 @@ class App(Frame):
         self.encryptButton = Button(self,text= " Sifrele", command= self.encrypt, width= 10,relief=SUNKEN) 
         self.encryptButton.grid(row=4,sticky=E)
 
-        self.decryptButton = Button(self,text= " Cöz", command= self.decrypt, width=10,relief=SUNKEN) 
+        self.decryptButton = Button(self,text= " Cözümle", command= self.decrypt, width=10,relief=SUNKEN) 
         self.decryptButton.grid(row=4,sticky=W)        
 
         self.pack()
